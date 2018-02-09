@@ -2053,7 +2053,7 @@ p {
 @media screen and (max-width: 320px) {
   /* line 519, ../sass/3-modules/_sections.scss */
   #clients {
-    width: 1em;
+    width: 18em;
     padding: 4em 0;
   }
   /* line 696, ../sass/3-modules/_sections.scss */
