@@ -155,7 +155,7 @@
         }
         .icon2{padding-top: 1.8em;}
         .icon3{
-          padding-left: 0.35em;
+          padding-left: 1.5em;
         }
       }
     }
@@ -201,7 +201,7 @@
         padding-bottom: 1em;
         .items{
           .icon2{padding-top: 1.8em;}
-          .icon3{padding-left: 1.35em;}
+          .icon3{padding-left: 1.5em;}
         }
       }
     }
@@ -276,7 +276,7 @@
       }
     }
   }
-  @media screen and (max-width: 425px){
+  @media screen and (max-width: 576px){
     margin: 4em 0 4em;
     .top_header{
       h2{font-size: 26px;}

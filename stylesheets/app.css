@@ -466,7 +466,7 @@ p {
   border-radius: 2em;
   border-style: solid;
   text-align: center;
-  padding: 0.5em 0em;
+  padding: 0.2em;
   border-color: #cccccc;
   border-width: 2px;
 }
@@ -1104,7 +1104,7 @@ p {
 }
 /* line 157, ../sass/3-modules/_sections.scss */
 .latest_project .subhead .grid .items .icon3 {
-  padding-left: 0.35em;
+  padding-left: 1.5em;
 }
 /* line 162, ../sass/3-modules/_sections.scss */
 .latest_project .subhead p {
@@ -1177,7 +1177,7 @@ p {
   }
   /* line 204, ../sass/3-modules/_sections.scss */
   .latest_project .subhead .grid .items .icon3 {
-    padding-left: 1.35em;
+    padding-left: 1.5em;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -1322,7 +1322,7 @@ p {
     padding: 0 0 0 0.4em;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   /* line 133, ../sass/3-modules/_sections.scss */
   .latest_project {
     margin: 4em 0 4em;
