@@ -42,7 +42,7 @@
     position: relative;
     padding-top: 3%;
   }
-  @media screen and (min-width: 1440px){
+  @media screen and (min-width: 1200px){
     height: 40em;
     .top_header{
       padding: 11% 28% 0;
@@ -159,14 +159,14 @@
   width: 100%;
   padding: 0;
   #image1{
-    width: 23em;
+    width: 27.8%;
     z-index: 0;
-    padding: 8.2em 0;
-    margin-left: 13.2em;
+    padding: 7.5% 0;
+    margin-left: 17%;
     position: absolute;
   }
   #back{
-    width: 64.5em;
+    width: 69.3%;
     height: 100%;
     z-index: 9;
     float: right;
@@ -182,7 +182,7 @@
     #header2{
       margin-left: 2em;
       margin-top: 2em;
-      padding: 0 0 0.75em 0;
+      padding: 0 0 0.5em 0;
       width: auto;
       height: auto;
       z-index: inherit;
@@ -194,11 +194,11 @@
       }
     }
     #desc2{
-      font-size: 16px;
+      font-size: 20px;
       color: $greyish;
-      margin-left: 5em;
+      margin-left: 4em;
       padding: 0;
-      width: 24em;
+      width: 27em;
       height: auto;
       text-align: left;
       float: left;
@@ -209,6 +209,8 @@
         .i{
           padding: 0;
           .ic{
+            width: 32px;
+            height: 32px;
             i{
               font-weight: 400;
               font-size: inherit;
@@ -216,11 +218,10 @@
             border-radius: 2em;
             border-style: solid;
             text-align: center;
-            padding: 0.2em;
             border-color: $greyish;
             border-width: 2px;
+          }
         }
-      }
         .grid-item{
           padding: 0.5em 1.5em;
         }
@@ -230,15 +231,14 @@
       }
     }
   }
-  @media screen and (min-width: 1440px){
+  @media screen and (max-width: 1200px){
     height: 40em;
-    #image1{
+    /*    #image1{
       width: 25em;
       padding: 6.6em 0;
       margin-left: 10.5em;
-    }
+    }*/
     #back{
-      width: 67em;
       #header2{
         font-size: 40px;
         margin-left: 2.5em;
@@ -273,7 +273,6 @@
       margin-left: 10em;
     }
     #back{
-      width: 45em;
       #header2{
         font-size: 30px;
         margin-left: 2.5em;
@@ -309,7 +308,6 @@
       margin-left: 10em;
     }
     #back{
-      width: 43em;
       #header2{
         font-size: 30px;
         margin-left: 2em;
@@ -337,11 +335,6 @@
       }
     }
   }
-  @media screen and (max-width: 800px){
-    #back{
-      width:50em;
-      }
-    }
   @media screen and (max-width: 768px){
     height: 22em;
     #image1{
@@ -350,7 +343,6 @@
       margin-left: 6em;
     }
     #back{
-      width: 36em;
       #header2{
         font-size: 24px;
         margin-left: 2em;
@@ -381,21 +373,14 @@
     }
   }
   @media screen and (max-width: 576px){
-    #image1{visibility: hidden; width: auto;}
+    #image1{visibility: hidden; height: auto;}
     #back{
-      width: 36em;
+      width: 100%;
     }
   }
   @media screen and (max-width: 425px){
     height: 20em;
-    #image1{
-      visibility: hidden;
-      width: auto;
-      padding: 3.5em 0;
-      margin-left: 0;
-    }
     #back{
-      width: 100%;
       #header2{
         font-size: 20px;
         margin-left: 2em;
@@ -427,14 +412,7 @@
   }
   @media screen and (max-width: 375px){
     height: 18em;
-    #image1{
-      visibility: hidden;
-      width: 12em;
-      padding: 3.5em 0;
-      margin-left: 0;
-    }
     #back{
-      width: 24em;
       #header2{
         font-size: 19px;
         margin-left: 2em;
@@ -466,14 +444,7 @@
   }
   @media screen and (max-width: 320px){
       height: 17em;
-      #image1{
-        visibility: hidden;
-        width: 12em;
-        padding: 3.5em 0;
-        margin-left: 0;
-      }
       #back{
-        width: 20em;
         #header2{
           font-size: 18px;
           margin-left: 1em;
