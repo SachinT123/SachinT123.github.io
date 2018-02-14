@@ -6,7 +6,7 @@
     padding: 2.5% 0;
     .navbar-nav{
       li{
-        font-size: 14px;
+        font-size: 14px!important;
         a{
           :hover,:active{
             color: $opaque2 !important;
