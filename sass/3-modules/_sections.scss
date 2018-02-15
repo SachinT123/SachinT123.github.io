@@ -54,12 +54,12 @@
 
 //////////////////////////////////////services section
 .services{
-  padding: 6.25em 0 4em;
+  padding: 7% 0 4%;
   width: 67%;
-  @media screen and (max-width: 1200px){padding: 6em 0 2em;width: 70%;}
-  @media screen and (max-width: 992px){padding: 5em 0 2em;width: 60%;}
-  @media screen and (max-width: 768px){padding: 4em 0 2em;width: 75%;}
-  @media screen and (max-width: 576px){padding: 3em 0 2em;width: 80%;}
+  @media screen and (max-width: 1200px){padding: 6% 0 2%;width: 70%;}
+  @media screen and (max-width: 992px){padding: 5% 0 2%;width: 60%;}
+  @media screen and (max-width: 768px){padding: 4% 0 2%;width: 75%;}
+  @media screen and (max-width: 576px){padding: 3% 0 2%;width: 80%;}
 
   h2{
     @media screen and (max-width: 1200px){font-size: 30px;}
@@ -150,7 +150,7 @@
         @media screen and (max-width: 992px){font-size: 24px;}
         @media screen and (max-width: 576px){font-size: 18px;}
         @media screen and (max-width: 425px){font-size: 16px;}
-  }
+      }
       #desc2{
         font-size: 20px;
         width: 27em;
@@ -206,315 +206,105 @@
   width: 100%;
   .top_header{
     text-align: center;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
+    h2{
+      @media screen and (max-width: 992px){font-size: 30px;}
+      @media screen and (max-width: 767px){font-size: 28px;}
+      @media screen and (max-width: 576px){font-size: 24px;}
+    }
     .subtitle_text{
       font-size: 25px;
-      font-weight: 400;
+      font-weight: $light;
+      @media screen and (max-width: 992px){font-size: 19px;}
+      @media screen and (max-width: 767px){font-size: 18px;}
+      @media screen and (max-width: 576px){font-size: 14px;}
     }
   }
   .subhead{
     padding-left: 16.6%;
+    @media screen and (max-width: 1200px){padding-left:12.5%;padding-bottom: 7%;}
+    @media screen and (max-width: 992px){padding-left:10%;}
+    @media screen and (max-width: 767px){padding: 0 10% 7% 10%;}
     .mid{
       h4{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 700;
         color: $opaque2;
-        margin-bottom: 0;
+        @media screen and (max-width: 1200px){font-size: 18px;}
+        @media screen and (max-width: 992px){font-size: 16px;}
+        @media screen and (max-width: 767px){font-size: 18px;}
+        @media screen and (max-width: 576px){font-size: 14px;}
+
+      }
+      p{
+        font-size: 16px;
+        @media screen and (max-width: 992px){font-size: 14px;}
+        @media screen and (max-width: 767px){font-size: 16px;}
+        @media screen and (max-width: 576px){font-size: 12px;}
+
       }
       .header_small{
         padding-bottom: 1em;
-        h4{padding-bottom: inherit;}
         .desc{
-          padding-right: 30%;
-          font-size: 16px;
+          width: 22.5em;
+          @media screen and (max-width: 767px){width: auto;}
         }
-      }
-      .grid{
-        padding-bottom: 1em;
-        .items{
-          padding: 0;
-          .item{
-            border-radius: 3em;
-            border-style: solid;
-            height: 67px;
-            width: 67px;
-            margin: 0;
-            border-color: $opaque;
-            border-width: 3px;
-            img{
-              position: absolute;
-              left: 40%;
-              top: 50%;
-              transform: translate(-40%,-50%);
-            }
-          }
-            img{}
-        }
-        .features{
-          padding-left: 1em;
 
-        }
+      }
+      .list{
+          h4{margin: 0;
+            @media screen and (max-width: 1200px){padding-top: 3%;}
+            @media screen and (max-width: 576px){padding-top: 5%;}
+          }
+          list-style-type: none;
+          .features{
+            padding-left: 10%;
+            padding-bottom: 5%;
+            @media screen and (max-width: 767px){padding-bottom: 2.5%;}
+            @media screen and (max-width: 576px){padding-bottom: 0;}
+          }
+          .features::before{
+            width: 67px;
+            height: 67px;
+            text-align: center;
+            padding-top: 10px;
+            left: 3%;
+            transform: translateY(-20%);
+            border-radius: 50%;
+            border-color: $opaque;
+            border-style: solid;
+            position: absolute;
+            @media screen and (max-width: 1200px){transform: scale(0.9);}
+            @media screen and (max-width: 992px){transform: scale(0.8);}
+            @media screen and (max-width: 767px){transform: scale(0.9);padding-top: 10px;}
+            @media screen and (max-width: 576px){transform: scale(0.7);}
+          }
+          .feature1::before{
+            content: url('../images/Icon-Basket.png');
+          }
+          .feature2::before{
+            content: url('../images/Icon-Laptop.png');
+          }
+          .feature3::before{
+            content: url('../images/Icon-Locked.png');
+          }
+
       }
 
       .bottomline{
-        padding-right: 25%;
-        font-size: 16px;
-        p{font-size: inherit;}
+        width: 23em;
+        @media screen and (max-width: 1200px){width: 20.5em;}
+        @media screen and (max-width: 767px){width: auto;}
+
         .ref{
-          font-size: inherit;
           color: $green;
           font-weight: 700;
+          font-size: inherit!important;
+          font-family: Montserrat;
         }
         .ref:hover{
+          text-decoration: none;
           color: $opaque2;
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 1200px){
-    padding: 6em 0 2em;
-    .top_header{
-      h2{font-size: 32px;}
-      .subtitle_text{font-size: 20px;}
-    }
-    .subhead{
-      .mid{
-        h4{font-size: 18px;}
-        .header_small{
-          .desc{
-            padding-right: 16%;
-          }
-          padding: 0.8em 0;
-        }
-        .grid{
-          padding-bottom: 1em;
-          .items{
-            .item{
-              width: 60px;
-              height: 60px;
-              img{transform: translate(-40%,-50%) scale(0.9,0.9);}
-            }
-          }
-        }
-        .bottomline{padding-right: 14%;}
-      }
-    }
-  }
-  @media screen and (max-width: 992px){
-    padding: 5em 0 3em;
-    .top_header{
-      h2{font-size: 30px;}
-      .subtitle_text{font-size: 19px;}
-    }
-    .subhead{
-      padding-left: 12.5%;
-      .mid{
-        h4{font-size: 17px!important;}
-        .header_small{
-          padding: 0.7em 0;
-          .desc{
-            padding-right: 10%;
-            font-size: 15px;
-          }
-        }
-        .grid{
-          padding-bottom: 0.8em;
-          .items{
-
-            .item{
-              img{
-              transform: translate(-40%,-50%) scale(0.75,0.75);
-              }
-              width: 55px;
-              height: 55px;
-
-            }
-          }
-          .features{padding: 0 0 0 2em;font-size: 15px;}
-        }
-
-        .bottomline{
-          padding-right: 7%;
-          font-size: 15px;
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 800px){
-    padding: 4em 0 2em;
-    .top_header{
-      padding-bottom: 2em;
-      h2{font-size: 28px;}
-      .subtitle_text{font-size: 18px;}
-    }
-    .subhead{
-      padding-left: 8%;
-      .mid{
-        h4{font-size: 16px!important;}
-        .header_small{
-          padding-bottom: 0.4em;
-            .desc{padding-right: 2em; font-size: 13px;}
-        }
-        .grid{
-          padding-bottom: 0.9em;
-          .items{
-            .item{
-              width: 50px;
-              height: 50px;
-            }
-          }
-          .features{
-
-            p{font-size: 13px;}
-          }
-        }
-        .bottomline{
-          font-size: 13px;
-          .ref{font-size: 12px;}
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 767px){
-    padding-top: 4em;
-    .top_header{
-      padding-bottom: 2em;
-      h2{font-size: 28px;}
-      .subtitle_text{font-size: 18px;}
-    }
-    .subhead{
-      padding: 0;
-      .mid{
-        padding: 0 7em;
-        h4{font-size: 18px;}
-        .header_small{
-            .desc{padding-right: 0; font-size: 16px;}
-        }
-        .grid{
-          padding-bottom: 0.9em;
-          .features{
-            p{font-size: 16px;}
-          }
-          .items{
-            .item{
-              width: 55px;
-              height: 55px;
-              img{left: 30%;}
-            }
-          }
-        }
-        .bottomline{
-          font-size: 16px;
-        }
-      }
-      .tphone{
-        img{float: right;}
-      }
-    }
-  }
-  @media screen and (max-width: 576px){
-    .top_header{
-      h2{font-size: 26px;}
-      .subtitle_text{font-size: 16px;}
-      padding-bottom: 1em;
-    }
-    .subhead{
-      .mid{
-        padding: 0 5em;
-        h4{font-size: 16px!important;}
-        .header_small{
-          h4{padding-bottom: 0.6em;}
-          padding: 0.7em 0;
-        }
-        .grid{
-          .items{
-            .item{
-              width: 50px;
-              height: 50px;
-              img{transform: translate(-40%, -50%) scale(0.7, 0.7);
-    left: 40%;}
-            }
-          }
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 425px){
-    padding-top: 2em;
-    .top_header{
-      h2{font-size: 24px;}
-      .subtitle_text{font-size: 15px;}
-    }
-    .subhead{
-      .mid{
-        padding: 0 4em;
-        h4{font-size: 15px!important;}
-        .header_small{
-          h4{padding-bottom: 0.6em;}
-          padding: 0.7em 2.6em 0 0;
-          .desc{font-size: 14px;}
-        }
-        .grid{
-          padding-bottom: 0.8em;
-          .items{
-
-            .item{
-              width: 50px;
-              height: 50px;
-            }
-          }
-          .features{
-            p{font-size: 14px;}
-          }
-        }
-        .bottomline{font-size: 14px;}
-      }
-    }
-  }
-  @media screen and (max-width: 375px){
-    .subhead{
-      .mid{
-        padding: 0 3.7em;
-        h4{font-size: 14px!important;}
-        .header_small{
-          padding: 0.7em 0;
-        }
-        .grid{
-          .features{
-            padding: 0 0 0 2em;
-            p{font-size: 14px;}
-          }
-        }
-        .bottomline{
-          font-size: 14px;
-          padding-right: 0;
-          .ref{font-size: 14px;}
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 320px){
-    .subhead{
-      .mid{
-        h4{font-size: 14px;}
-        .header_small{
-          .desc{font-size: 12px;}
-        }
-        .grid{
-          .items{
-            .item{
-              width: 50px;
-              height: 50px;
-            }
-          }
-          .features{
-            padding-left: 2em;
-            p{font-size: 12px;}
-          }
-        }
-        .bottomline{
-          font-size: 12px;
-          .ref{font-size: 12px!important;}
         }
       }
     }
