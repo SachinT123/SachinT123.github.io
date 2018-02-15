@@ -40,15 +40,21 @@ p {
 .navbar .navbar-nav li {
   font-size: 14px !important;
 }
-/* line 11, ../sass/2-layout/_nav.scss */
+@media screen and (max-width: 1024px) {
+  /* line 8, ../sass/2-layout/_nav.scss */
+  .navbar .navbar-nav li {
+    font-size: 12px !important;
+  }
+}
+/* line 12, ../sass/2-layout/_nav.scss */
 .navbar .navbar-nav li a :hover, .navbar .navbar-nav li a :active {
   color: #222222 !important;
 }
-/* line 17, ../sass/2-layout/_nav.scss */
+/* line 18, ../sass/2-layout/_nav.scss */
 .navbar .navbar-collapse {
   margin: 0;
 }
-/* line 20, ../sass/2-layout/_nav.scss */
+/* line 21, ../sass/2-layout/_nav.scss */
 .navbar .navbar-brand {
   color: #555555;
   font-weight: 700;
@@ -56,7 +62,7 @@ p {
   padding: 5% 0;
   width: 200px;
 }
-/* line 26, ../sass/2-layout/_nav.scss */
+/* line 27, ../sass/2-layout/_nav.scss */
 .navbar .navbar-brand img {
   display: inline;
   border-radius: 50%;
@@ -64,13 +70,13 @@ p {
   padding: 4% 4.5%;
 }
 @media screen and (max-width: 767px) {
-  /* line 34, ../sass/2-layout/_nav.scss */
+  /* line 35, ../sass/2-layout/_nav.scss */
   .navbar .navbar-brand {
     padding: 10px 0 0 0;
   }
 }
 
-/* line 37, ../sass/2-layout/_nav.scss */
+/* line 38, ../sass/2-layout/_nav.scss */
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
@@ -331,7 +337,7 @@ p {
 /* line 1, ../sass/3-modules/_buttons.scss */
 .button {
   color: #ffffff;
-  border-radius: 50%;
+  border-radius: 2.5em;
   border-style: none;
   font-size: 14px;
   font-weight: 700;
@@ -361,7 +367,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 /* line 14, ../sass/3-modules/_sections.scss */
 .jumbo .text {
@@ -661,7 +667,7 @@ p {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
 }
 /* line 138, ../sass/3-modules/_sections.scss */
@@ -1275,7 +1281,7 @@ p {
     padding: 10% 20% 0;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   /* line 405, ../sass/3-modules/_sections.scss */
   #clients .grid {
     padding: 10% 7.5% 0;
@@ -1375,7 +1381,7 @@ p {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 576px) {
   /* line 443, ../sass/3-modules/_sections.scss */
   #clients .grid .item2 .tooltext .clientname, #clients .grid .item3 .tooltext .clientname {
     font-size: 12px;

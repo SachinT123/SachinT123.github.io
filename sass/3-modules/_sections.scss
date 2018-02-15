@@ -9,7 +9,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
   }
   .text{
     position: relative;
@@ -23,18 +23,18 @@
         font-size: $biggest;
         @media screen and (max-width:$large){font-size: 50px;}
         @media screen and (max-width:$medium+1){font-size: 40px;}
-        @media screen and (max-width:768px){font-size: 36px;}
-        @media screen and (max-width:576px){font-size: 30px;}
-        @media screen and (max-width:375px){font-size: 24px;}
+        @media screen and (max-width:$small+1){font-size: 36px;}
+        @media screen and (max-width:$x-small){font-size: 30px;}
+        @media screen and (max-width:$x-small3){font-size: 24px;}
     }
     .subtitle_text{
       color: $greyish;
       font-size: 25px;
       @media screen and (max-width:$large){font-size: 22px;}
-      @media screen and (max-width:992px){font-size: 18px;}
-      @media screen and (max-width:768px){font-size: 16px;}
-      @media screen and (max-width:576px){font-size: 14px;}
-      @media screen and (max-width:375px){font-size: 12px;}
+      @media screen and (max-width:$medium+1){font-size: 18px;}
+      @media screen and (max-width:$small+1){font-size: 16px;}
+      @media screen and (max-width:$x-small){font-size: 14px;}
+      @media screen and (max-width:$x-small3){font-size: 12px;}
     }
     .button1{
       padding-top: 10%;
@@ -43,9 +43,9 @@
       }
       button{
         width: 15em;height: 4.5em;
-        @media screen and (max-width: 992px){font-size: 11px!important;}
-        @media screen and (max-width: 768px){font-size: 10px!important;}
-        @media screen and (max-width: 576px){font-size: 8px!important;width: 14em;height: 4em;}
+        @media screen and (max-width: $medium+1){font-size: 11px!important;}
+        @media screen and (max-width: $small+1){font-size: 10px!important;}
+        @media screen and (max-width: $x-small){font-size: 8px!important;width: 14em;height: 4em;}
       }
     }
   }
@@ -57,14 +57,14 @@
   padding: 7% 0 4%;
   width: 67%;
   @media screen and (max-width: $large){padding: 6% 0 2%;width: 70%;}
-  @media screen and (max-width: 992px){padding: 5% 0 2%;width: 60%;}
-  @media screen and (max-width: 768px){padding: 4% 0 2%;width: 75%;}
-  @media screen and (max-width: 576px){padding: 3% 0 2%;width: 80%;}
+  @media screen and (max-width: $medium+1){padding: 5% 0 2%;width: 60%;}
+  @media screen and (max-width: $small+1){padding: 4% 0 2%;width: 75%;}
+  @media screen and (max-width: $x-small){padding: 3% 0 2%;width: 80%;}
 
   h2{
     @media screen and (max-width: $large){font-size: 30px;}
-    @media screen and (max-width: 768px){font-size: 24px;}
-    @media screen and (max-width: 576px){font-size: 18px;}
+    @media screen and (max-width: $small+1){font-size: 24px;}
+    @media screen and (max-width: $x-small){font-size: 18px;}
   }
   h4{
     font-size: 20px;
@@ -72,15 +72,15 @@
     font-weight: $heavy;
     padding-top: 1em;
     @media screen and (max-width: $large){font-size: 18px;}
-    @media screen and (max-width: 992px){font-size: 20px;}
-    @media screen and (max-width: 576px){font-size: 15px;}
+    @media screen and (max-width: $medium+1){font-size: 20px;}
+    @media screen and (max-width: $x-small){font-size: 15px;}
   }
   .subtitle_text{
     font-size: 25px;
     padding-bottom: 2em;
     @media screen and (max-width: $large){font-size: 20px;}
-    @media screen and (max-width: 992px){font-size: 19px;padding-bottom: 3em;}
-    @media screen and (max-width: 576px){font-size: 14px;padding-bottom: 2em;}
+    @media screen and (max-width: $medium+1){font-size: 19px;padding-bottom: 3em;}
+    @media screen and (max-width: $x-small){font-size: 14px;padding-bottom: 2em;}
   }
   .pro{
     .column{
@@ -96,8 +96,8 @@
     p{
       font-size: 15px;
       @media screen and (max-width: $large){font-size: 14px;}
-      @media screen and (max-width: 992px){font-size: 18px;}
-      @media screen and (max-width: 576px){font-size: 12px;}
+      @media screen and (max-width: $medium+1){font-size: 18px;}
+      @media screen and (max-width: $x-small){font-size: 12px;}
 
     }
   }
@@ -116,7 +116,7 @@
     z-index: 0;
     transform: translate(60%,30%);
     position: absolute;
-    @media screen and (max-width: 768px){visibility: hidden;}
+    @media screen and (max-width: $small+1){visibility: hidden;}
   }
   #back{
     background-image: url('../images/Background2.jpg');
@@ -126,19 +126,19 @@
     float: right;
     position: relative;
     background-size: cover;
-    @media screen and (max-width: 768px){width: 100%;}
+    @media screen and (max-width: $small+1){width: 100%;}
     .bg2{
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.6);
       position: absolute;
     }
     .text{
       margin: 10%;
       position: relative;
-      @media screen and (max-width: 425px){margin: 6%;}
+      @media screen and (max-width: $x-small2){margin: 6%;}
 
       #header2{
         color: $white;
@@ -147,18 +147,18 @@
           color: $green;
         }
         @media screen and (max-width: $large){font-size: 30px;}
-        @media screen and (max-width: 992px){font-size: 24px;}
-        @media screen and (max-width: 576px){font-size: 18px;}
-        @media screen and (max-width: 425px){font-size: 16px;}
+        @media screen and (max-width: $medium+1){font-size: 24px;}
+        @media screen and (max-width: $x-small){font-size: 18px;}
+        @media screen and (max-width: $x-small2){font-size: 16px;}
       }
       #desc2{
         font-size: 20px;
         width: 27em;
         color: $greyish;
         @media screen and (max-width: $large){font-size: 16px;}
-        @media screen and (max-width: 992px){font-size: 14px;}
-        @media screen and (max-width: 576px){font-size: 10px;}
-        @media screen and (max-width: 425px){font-size: 8px;}
+        @media screen and (max-width: $medium+1){font-size: 14px;}
+        @media screen and (max-width: $x-small){font-size: 10px;}
+        @media screen and (max-width: $x-small2){font-size: 8px;}
         .grid{
           margin: 0;
           padding-top: 0.4em;
@@ -167,7 +167,7 @@
             .ic{
               width: 32px;
               height: 32px;
-              @media screen and (max-width: 576px){width: 20px;height: 20px;}
+              @media screen and (max-width: $x-small){width: 20px;height: 20px;}
               i{
                 font-weight: $light;
                 font-size: inherit;
@@ -190,9 +190,9 @@
           font-size: 14px;
           transform: scaleY(1.0783);
           margin-top: 2em;
-          @media screen and (max-width: 992px){font-size: 12px!important;margin-top: 1em;}
-          @media screen and (max-width: 576px){font-size: 10px!important;margin-top: 0;}
-          @media screen and (max-width: 425px){font-size: 7px!important;}
+          @media screen and (max-width: $medium+1){font-size: 12px!important;margin-top: 1em;}
+          @media screen and (max-width: $x-small){font-size: 10px!important;margin-top: 0;}
+          @media screen and (max-width: $x-small2){font-size: 7px!important;}
         }
       }
     }
@@ -208,60 +208,60 @@
     text-align: center;
     padding-bottom: 2em;
     h2{
-      @media screen and (max-width: 992px){font-size: 30px;}
-      @media screen and (max-width: 767px){font-size: 28px;}
-      @media screen and (max-width: 576px){font-size: 24px;}
+      @media screen and (max-width: $medium+1){font-size: 30px;}
+      @media screen and (max-width: $small){font-size: 28px;}
+      @media screen and (max-width: $x-small){font-size: 24px;}
     }
     .subtitle_text{
       font-size: 25px;
       font-weight: $light;
-      @media screen and (max-width: 992px){font-size: 19px;}
-      @media screen and (max-width: 767px){font-size: 18px;}
-      @media screen and (max-width: 576px){font-size: 14px;}
+      @media screen and (max-width: $medium+1){font-size: 19px;}
+      @media screen and (max-width: $small){font-size: 18px;}
+      @media screen and (max-width: $x-small){font-size: 14px;}
     }
   }
   .subhead{
     padding-left: 16.6%;
     @media screen and (max-width: $large){padding-left:12.5%;padding-bottom: 7%;}
-    @media screen and (max-width: 992px){padding-left:10%;}
-    @media screen and (max-width: 767px){padding: 0 10% 7% 10%;}
+    @media screen and (max-width: $medium+1){padding-left:10%;}
+    @media screen and (max-width: $small){padding: 0 10% 7% 10%;}
     .mid{
       h4{
         font-size: 20px;
-        font-weight: 700;
+        font-weight: $heavy;
         color: $opaque2;
         @media screen and (max-width: $large){font-size: 18px;}
-        @media screen and (max-width: 992px){font-size: 16px;}
-        @media screen and (max-width: 767px){font-size: 18px;}
-        @media screen and (max-width: 576px){font-size: 14px;}
+        @media screen and (max-width: $medium+1){font-size: 16px;}
+        @media screen and (max-width: $small){font-size: 18px;}
+        @media screen and (max-width: $x-small){font-size: 14px;}
 
       }
       p{
         font-size: 16px;
-        @media screen and (max-width: 992px){font-size: 14px;}
-        @media screen and (max-width: 767px){font-size: 16px;}
-        @media screen and (max-width: 576px){font-size: 12px;}
+        @media screen and (max-width: $medium+1){font-size: 14px;}
+        @media screen and (max-width: $small){font-size: 16px;}
+        @media screen and (max-width: $x-small){font-size: 12px;}
 
       }
       .header_small{
         padding-bottom: 1em;
         .desc{
           width: 22.5em;
-          @media screen and (max-width: 767px){width: auto;}
+          @media screen and (max-width: $small){width: auto;}
         }
 
       }
       .list{
           h4{margin: 0;
             @media screen and (max-width: $large){padding-top: 3%;}
-            @media screen and (max-width: 576px){padding-top: 5%;}
+            @media screen and (max-width: $x-small){padding-top: 5%;}
           }
           list-style-type: none;
           .features{
             padding-left: 10%;
             padding-bottom: 5%;
-            @media screen and (max-width: 767px){padding-bottom: 2.5%;}
-            @media screen and (max-width: 576px){padding-bottom: 0;}
+            @media screen and (max-width: $small){padding-bottom: 2.5%;}
+            @media screen and (max-width: $x-small){padding-bottom: 0;}
           }
           .features::before{
             width: 67px;
@@ -275,9 +275,9 @@
             border-style: solid;
             position: absolute;
             @media screen and (max-width: $large){transform: scale(0.9);}
-            @media screen and (max-width: 992px){transform: scale(0.8);}
-            @media screen and (max-width: 767px){transform: scale(0.9);padding-top: 10px;}
-            @media screen and (max-width: 576px){transform: scale(0.7);}
+            @media screen and (max-width: $medium+1){transform: scale(0.8);}
+            @media screen and (max-width: $small){transform: scale(0.9);padding-top: 10px;}
+            @media screen and (max-width: $x-small){transform: scale(0.7);}
           }
           .feature1::before{
             content: url('../images/Icon-Basket.png');
@@ -294,13 +294,13 @@
       .bottomline{
         width: 23em;
         @media screen and (max-width: $large){width: 20.5em;}
-        @media screen and (max-width: 767px){width: auto;}
+        @media screen and (max-width: $small){width: auto;}
 
         .ref{
           color: $green;
           font-weight: $heavy;
           font-size: inherit!important;
-          font-family: Montserrat;
+          font-family: $base;
         }
         .ref:hover{
           text-decoration: none;
@@ -321,27 +321,27 @@
     margin: 10% 0;
     h2{
       @media screen and (max-width: $large){font-size: 30px;}
-      @media screen and (max-width: 576px){font-size: 24px;}
+      @media screen and (max-width: $x-small){font-size: 24px;}
     }
     .subtitle_text{
       font-size: 25px;
       @media screen and (max-width: $large){font-size: 20px;}
-      @media screen and (max-width: 576px){font-size: 16px;}
+      @media screen and (max-width: $x-small){font-size: 16px;}
     }
     h4{
       font-size: 18px;
       color: $opaque2;
-      font-weight: 700;
+      font-weight: $heavy;
       margin-top: 1em;
       @media screen and (max-width: $large){font-size: 16px;}
 
     }
     .values{
       margin: 5% 12.5% 0;
-      @media screen and (max-width: 768px){margin: 7% 10%;}
+      @media screen and (max-width: $small+1){margin: 7% 10%;}
       .icons{
           position: relative;
-          border-radius: $half;
+          border-radius: 50%;
           border-style: solid;
           border-color: $base_font_color;
           .star{font-size: 60px;transform: translateY(25%);}
@@ -362,7 +362,7 @@
           width: 50%;
           top: 2.5em;
           transform: translateX(50%);
-          @media screen and (max-width: 992px){visibility: hidden;}
+          @media screen and (max-width: $medium+1){visibility: hidden;}
       }
       .icon2::after{
           content: "";
@@ -371,13 +371,13 @@
           width: 50%;
           top: 2.5em;
           transform: translate(50%, 0);
-          @media screen and (max-width: 992px){visibility: hidden;}
+          @media screen and (max-width: $medium+1){visibility: hidden;}
       }
       .description{
         font-size: 16px;
-        @media screen and (max-width: 1200px){font-size: 15px;}
-        @media screen and (max-width: 992px){margin-bottom: 5%;}
-        @media screen and (max-width: 576px){font-size: 14px;}
+        @media screen and (max-width: $large){font-size: 15px;}
+        @media screen and (max-width: $medium+1){margin-bottom: 5%;}
+        @media screen and (max-width: $x-small){font-size: 14px;}
       }
     }
   }
@@ -389,40 +389,40 @@
   margin: 7% 0;
   font-family: RobotoSlab;
   .heading{
-    @media screen and (max-width: 1200px){font-size: 40px;}
-    @media screen and (max-width: 992px){font-size: 30px;}
-    @media screen and (max-width: 767px){font-size: 24px;}
-    @media screen and (max-width: 576px){font-size: 20px;}
+    @media screen and (max-width: $large){font-size: 40px;}
+    @media screen and (max-width: $medium+1){font-size: 30px;}
+    @media screen and (max-width: $small){font-size: 24px;}
+    @media screen and (max-width: $x-small){font-size: 20px;}
   }
   .subtitle_text{
     font-size: 25px;
-    @media screen and (max-width: 1200px){font-size: 25px;}
-    @media screen and (max-width: 992px){font-size: 20px;}
-    @media screen and (max-width: 767px){font-size: 18px;}
-    @media screen and (max-width: 576px){font-size: 14px;}
+    @media screen and (max-width: $large){font-size: 25px;}
+    @media screen and (max-width: $medium+1){font-size: 20px;}
+    @media screen and (max-width: $small){font-size: 18px;}
+    @media screen and (max-width: $x-small){font-size: 14px;}
   }
 
   .grid{
     padding: 2.5% 17% 0;
-    @media screen and (max-width: 1200px){padding: 2% 15% 0;}
-    @media screen and (max-width: 992px){padding: 2% 10% 0;}
-    @media screen and (max-width: 767px){padding: 10% 20% 0;}
-    @media screen and (max-width: 767px){padding: 10% 7.5% 0;}
+    @media screen and (max-width: $large){padding: 2% 15% 0;}
+    @media screen and (max-width: $medium+1){padding: 2% 10% 0;}
+    @media screen and (max-width: $small){padding: 10% 20% 0;}
+    @media screen and (max-width: $x-small){padding: 10% 7.5% 0;}
       .item1 , .item4{
-        @media screen and (max-width: 767px){text-align: -webkit-center;}
+        @media screen and (max-width: $small){text-align: -webkit-center;}
         .item{
           background: $opaque2;
           border-radius: 50%;
           height: 221px;
           width: 221px;
-          @media screen and (max-width: 1200px){width:192px;height:192px;}
-          @media screen and (max-width: 992px){width: 176px;height: 176px;}
+          @media screen and (max-width: $large){width:192px;height:192px;}
+          @media screen and (max-width: $medium+1){width: 176px;height: 176px;}
         }
       }
       .item4{
         .item{
           float: right;
-          @media screen and (max-width: 767px){float: none;}
+          @media screen and (max-width: $small){float: none;}
         }
       }
       .item2,.item3{
@@ -433,19 +433,19 @@
           position: relative;
           background: $background2;
           padding: 7.5%;
-          @media screen and (max-width: 576px){padding: 5%;}
+          @media screen and (max-width: $x-small){padding: 5%;}
           .text{
             font-size: 22px;
-            @media screen and (max-width: 1200px){font-size: 18px;}
-            @media screen and (max-width: 991px){font-size: 16px;}
-            @media screen and (max-width: 576px){font-size: 14px;}
+            @media screen and (max-width: $large){font-size: 18px;}
+            @media screen and (max-width: $medium){font-size: 16px;}
+            @media screen and (max-width: $x-small){font-size: 14px;}
             }
           .clientname{
             color: $green;
             font-size: 18px;
-            @media screen and (max-width: 1200px){font-size: 15px;}
-            @media screen and (max-width: 991px){font-size: 14px;}
-            @media screen and (max-width: 991px){font-size: 12px;}
+            @media screen and (max-width: $large){font-size: 15px;}
+            @media screen and (max-width: $medium){font-size: 14px;}
+            @media screen and (max-width: $x-small){font-size: 12px;}
       }
         }
       }
@@ -462,7 +462,7 @@
           border-left: 0;
           transform: translateY(-50%);
           margin-left: 0;
-          @media screen and (max-width: 767px){visibility: hidden;}
+          @media screen and (max-width: $small){visibility: hidden;}
         }
       }
       .item3{
@@ -478,7 +478,7 @@
           border-right: 0;
           transform: translateY(-50%);
           margin-right: 0;
-          @media screen and (max-width: 767px){visibility: hidden;}
+          @media screen and (max-width: $small){visibility: hidden;}
         }
       }
     }
@@ -492,16 +492,16 @@
     background-color: $green;
     color: $white;
     padding: 4em 9em;
-    @media screen and (max-width: 1200px){padding: 2em 6em;}
-    @media screen and (max-width: 768px){padding: 1.5em 4em;}
-    @media screen and (max-width: 576px){padding: 1em;}
+    @media screen and (max-width: $large){padding: 2em 6em;}
+    @media screen and (max-width: $small+1){padding: 1.5em 4em;}
+    @media screen and (max-width: $x-small){padding: 1em;}
     #talk{
       color: $white;
       margin-bottom: 1em;
-      @media screen and (max-width: 1200px){font-size: 30px;}
-      @media screen and (max-width: 768px){font-size: 24px;}
-      @media screen and (max-width: 576px){font-size: 18px;}
-      @media screen and (max-width: 375px){font-size: 16px;}
+      @media screen and (max-width: $large){font-size: 30px;}
+      @media screen and (max-width: $small+1){font-size: 24px;}
+      @media screen and (max-width: $x-small){font-size: 18px;}
+      @media screen and (max-width: $x-small3){font-size: 16px;}
     }
     .button3{
       border-color: $white;
@@ -512,9 +512,9 @@
       height: 3em;
       font-size: 18px;
       text-shadow: none;
-      @media screen and (max-width: 1200px){font-size: 16px;width: 10em;}
-      @media screen and (max-width: 768px){font-size: 15px;}
-      @media screen and (max-width: 576px){font-size: 12px;}
+      @media screen and (max-width: $large){font-size: 16px;width: 10em;}
+      @media screen and (max-width: $small+1){font-size: 15px;}
+      @media screen and (max-width: $x-small){font-size: 12px;}
     }
     .button3:hover{
         color: $green!important;
@@ -527,8 +527,8 @@
     padding: 2em 0;
     margin-top: 0;
     width: 54.6%;
-    @media screen and (max-width: 768px){width: 70%;padding: 1.5em 0;}
-    @media screen and (max-width: 576px){padding: 0.75em 0;}
+    @media screen and (max-width: $small+1){width: 70%;padding: 1.5em 0;}
+    @media screen and (max-width: $x-small){padding: 0.75em 0;}
     .logo{
       padding: 2%;
       text-align: -webkit-center;
