@@ -1,9 +1,9 @@
 .button{
   color: $white;
-  border-radius: 2.5em;
+  border-radius: $half;
   border-style: none;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: $heavy;
   text-align: center;
   height: 4.3em;
   transform: scale(1.0783,1.0783);

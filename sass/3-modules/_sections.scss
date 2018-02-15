@@ -15,14 +15,14 @@
     position: relative;
     text-align: center;
     padding: 7.5% 18%;
-    @media screen and (max-width:576px){padding: 7.5%;}
+    @media screen and (max-width:$x-small){padding: 7.5%;}
 
     .top_header{
         color: $white;
         font-weight: $heavy;
         font-size: $biggest;
-        @media screen and (max-width:1200px){font-size: 50px;}
-        @media screen and (max-width:992px){font-size: 40px;}
+        @media screen and (max-width:$large){font-size: 50px;}
+        @media screen and (max-width:$medium+1){font-size: 40px;}
         @media screen and (max-width:768px){font-size: 36px;}
         @media screen and (max-width:576px){font-size: 30px;}
         @media screen and (max-width:375px){font-size: 24px;}
@@ -30,7 +30,7 @@
     .subtitle_text{
       color: $greyish;
       font-size: 25px;
-      @media screen and (max-width:1200px){font-size: 22px;}
+      @media screen and (max-width:$large){font-size: 22px;}
       @media screen and (max-width:992px){font-size: 18px;}
       @media screen and (max-width:768px){font-size: 16px;}
       @media screen and (max-width:576px){font-size: 14px;}
@@ -38,7 +38,7 @@
     }
     .button1{
       padding-top: 10%;
-      @media screen and (max-width: 1200px){
+      @media screen and (max-width: $large){
         padding-top: 6%;
       }
       button{
@@ -56,29 +56,29 @@
 .services{
   padding: 7% 0 4%;
   width: 67%;
-  @media screen and (max-width: 1200px){padding: 6% 0 2%;width: 70%;}
+  @media screen and (max-width: $large){padding: 6% 0 2%;width: 70%;}
   @media screen and (max-width: 992px){padding: 5% 0 2%;width: 60%;}
   @media screen and (max-width: 768px){padding: 4% 0 2%;width: 75%;}
   @media screen and (max-width: 576px){padding: 3% 0 2%;width: 80%;}
 
   h2{
-    @media screen and (max-width: 1200px){font-size: 30px;}
+    @media screen and (max-width: $large){font-size: 30px;}
     @media screen and (max-width: 768px){font-size: 24px;}
     @media screen and (max-width: 576px){font-size: 18px;}
   }
   h4{
     font-size: 20px;
     color: $opaque2;
-    font-weight: 700;
+    font-weight: $heavy;
     padding-top: 1em;
-    @media screen and (max-width: 1200px){font-size: 18px;}
+    @media screen and (max-width: $large){font-size: 18px;}
     @media screen and (max-width: 992px){font-size: 20px;}
     @media screen and (max-width: 576px){font-size: 15px;}
   }
   .subtitle_text{
     font-size: 25px;
     padding-bottom: 2em;
-    @media screen and (max-width: 1200px){font-size: 20px;}
+    @media screen and (max-width: $large){font-size: 20px;}
     @media screen and (max-width: 992px){font-size: 19px;padding-bottom: 3em;}
     @media screen and (max-width: 576px){font-size: 14px;padding-bottom: 2em;}
   }
@@ -95,7 +95,7 @@
     }
     p{
       font-size: 15px;
-      @media screen and (max-width: 1200px){font-size: 14px;}
+      @media screen and (max-width: $large){font-size: 14px;}
       @media screen and (max-width: 992px){font-size: 18px;}
       @media screen and (max-width: 576px){font-size: 12px;}
 
@@ -146,7 +146,7 @@
         #and{
           color: $green;
         }
-        @media screen and (max-width: 1200px){font-size: 30px;}
+        @media screen and (max-width: $large){font-size: 30px;}
         @media screen and (max-width: 992px){font-size: 24px;}
         @media screen and (max-width: 576px){font-size: 18px;}
         @media screen and (max-width: 425px){font-size: 16px;}
@@ -155,7 +155,7 @@
         font-size: 20px;
         width: 27em;
         color: $greyish;
-        @media screen and (max-width: 1200px){font-size: 16px;}
+        @media screen and (max-width: $large){font-size: 16px;}
         @media screen and (max-width: 992px){font-size: 14px;}
         @media screen and (max-width: 576px){font-size: 10px;}
         @media screen and (max-width: 425px){font-size: 8px;}
@@ -181,7 +181,7 @@
             }
           }
           .grid-item{
-            @media screen and (max-width: 1200px){ padding-top: 1%;}
+            @media screen and (max-width: $large){ padding-top: 1%;}
 
           }
         }
@@ -222,7 +222,7 @@
   }
   .subhead{
     padding-left: 16.6%;
-    @media screen and (max-width: 1200px){padding-left:12.5%;padding-bottom: 7%;}
+    @media screen and (max-width: $large){padding-left:12.5%;padding-bottom: 7%;}
     @media screen and (max-width: 992px){padding-left:10%;}
     @media screen and (max-width: 767px){padding: 0 10% 7% 10%;}
     .mid{
@@ -230,7 +230,7 @@
         font-size: 20px;
         font-weight: 700;
         color: $opaque2;
-        @media screen and (max-width: 1200px){font-size: 18px;}
+        @media screen and (max-width: $large){font-size: 18px;}
         @media screen and (max-width: 992px){font-size: 16px;}
         @media screen and (max-width: 767px){font-size: 18px;}
         @media screen and (max-width: 576px){font-size: 14px;}
@@ -253,7 +253,7 @@
       }
       .list{
           h4{margin: 0;
-            @media screen and (max-width: 1200px){padding-top: 3%;}
+            @media screen and (max-width: $large){padding-top: 3%;}
             @media screen and (max-width: 576px){padding-top: 5%;}
           }
           list-style-type: none;
@@ -274,7 +274,7 @@
             border-color: $opaque;
             border-style: solid;
             position: absolute;
-            @media screen and (max-width: 1200px){transform: scale(0.9);}
+            @media screen and (max-width: $large){transform: scale(0.9);}
             @media screen and (max-width: 992px){transform: scale(0.8);}
             @media screen and (max-width: 767px){transform: scale(0.9);padding-top: 10px;}
             @media screen and (max-width: 576px){transform: scale(0.7);}
@@ -293,12 +293,12 @@
 
       .bottomline{
         width: 23em;
-        @media screen and (max-width: 1200px){width: 20.5em;}
+        @media screen and (max-width: $large){width: 20.5em;}
         @media screen and (max-width: 767px){width: auto;}
 
         .ref{
           color: $green;
-          font-weight: 700;
+          font-weight: $heavy;
           font-size: inherit!important;
           font-family: Montserrat;
         }
@@ -320,12 +320,12 @@
   .text{
     margin: 10% 0;
     h2{
-      @media screen and (max-width: 1200px){font-size: 30px;}
+      @media screen and (max-width: $large){font-size: 30px;}
       @media screen and (max-width: 576px){font-size: 24px;}
     }
     .subtitle_text{
       font-size: 25px;
-      @media screen and (max-width: 1200px){font-size: 20px;}
+      @media screen and (max-width: $large){font-size: 20px;}
       @media screen and (max-width: 576px){font-size: 16px;}
     }
     h4{
@@ -333,7 +333,7 @@
       color: $opaque2;
       font-weight: 700;
       margin-top: 1em;
-      @media screen and (max-width: 1200px){font-size: 16px;}
+      @media screen and (max-width: $large){font-size: 16px;}
 
     }
     .values{
@@ -341,9 +341,10 @@
       @media screen and (max-width: 768px){margin: 7% 10%;}
       .icons{
           position: relative;
-          border-radius: 50%;
+          border-radius: $half;
           border-style: solid;
           border-color: $base_font_color;
+          .star{font-size: 60px;transform: translateY(25%);}
           img{
             position: absolute;
             left: 50%;

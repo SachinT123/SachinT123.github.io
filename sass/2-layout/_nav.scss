@@ -19,18 +19,18 @@
     }
     .navbar-brand{
       color: #555555;
-      font-weight: 700;
+      font-weight: $heavy;
       margin-left: 10% !important;
       padding: 5% 0;
       width: 200px;
       img{
         display: inline;
-        border-radius: 50%;
+        border-radius: $half;
         background: $green;
         padding: 4% 4.5%;
       }
     }
-    @media screen and (max-width: 767px){
+    @media screen and (max-width: $small){
       .navbar-brand{padding: 10px 0 0 0;}
     }
 }

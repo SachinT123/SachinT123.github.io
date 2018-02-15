@@ -1,5 +1,9 @@
-//colour variables
+//font family
+$base: Montserrat;
+$not_base: RobotoSlab;
+$icon-family: FontAwesome;
 
+//colour variables
 $base_font_color: #777777;
 $opaque: #000000;
 $opaque2: #222222;
@@ -20,7 +24,12 @@ $biggest: 60px;
 $big: 40px;
 
 //breakpoints
-$br1: 1200px;
-$br2: 992px;
-$br3: 768px;
-$br4: 576px;
+$large: 1200px;
+$medium: 991px;
+$medium2: 1024px;
+$small: 767px;
+$x-small: 576px;
+$x-small2: 425px;
+
+//border radius
+$half: 50%;
