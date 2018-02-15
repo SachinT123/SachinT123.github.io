@@ -352,6 +352,7 @@ p {
 .button:hover {
   background-color: #ffffff;
   color: #222222;
+  transition: 1s ease;
 }
 
 /* line 2, ../sass/3-modules/_sections.scss */
