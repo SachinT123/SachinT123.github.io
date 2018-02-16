@@ -227,8 +227,8 @@
     padding-left: 16.6%;
     @media screen and (max-width: $large){padding-left:12.5%;padding-bottom: 7%;}
     @media screen and (max-width: $medium+1){padding-left:10%;}
-    @media screen and (max-width: $small){padding: 0 10% 7% 10%;}
     .mid{
+      @media screen and (max-width: $small){padding-right: 10%;}
       h4{
         font-size: 20px;
         font-weight: $heavy;
@@ -311,6 +311,8 @@
         }
       }
     }
+    .tphone{
+      @media screen and (max-width: $small){margin: 0;padding: 0}}
   }
 }
 
