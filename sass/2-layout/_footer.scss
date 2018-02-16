@@ -58,7 +58,7 @@
           @media screen and (max-width: $x-small){transform: translate(50%,-25%) scale(0.6);}
         }
         .location::before{
-          font-family: FontAwesome;
+          font-family: $icon-family;
           content: "\f041";
           font-size: 35px;
         }

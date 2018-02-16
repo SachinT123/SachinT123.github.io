@@ -1,4 +1,9 @@
-.navi{background-color: $white!important;}
+.navi{
+  background-color: $white!important;
+  .nav-container{
+    @media screen and (min-width: 950px){width: 70%;}
+  }
+}
 .navbar {
     margin-bottom: 0;
     z-index: 9999;
