@@ -113,8 +113,8 @@
   height: auto;
   #image1{
     width: 27.8%;
-    z-index: 0;
-    transform: translate(60%,30%);
+    top: 50%;
+    transform: translate(60%,-50%);
     position: absolute;
     @media screen and (max-width: $small+1){visibility: hidden;}
   }
