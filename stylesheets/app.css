@@ -368,7 +368,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
 /* line 14, ../sass/3-modules/_sections.scss */
 .jumbo .text {
