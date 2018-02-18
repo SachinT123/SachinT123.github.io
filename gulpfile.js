@@ -2,9 +2,6 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var cssMin = require('gulp-css');
 var uglify = require('gulp-uglify');
-gulp.task('default', function(){
-  console.log("gulp is running");
-})
 gulp.task('css',function(){
 
   gulp.src([
@@ -16,3 +13,5 @@ gulp.task('css',function(){
     .pipe(gulp.dest('stylesheets'))
 
 });
+
+gulp.task('default', ['css']);
