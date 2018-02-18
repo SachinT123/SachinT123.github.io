@@ -110,7 +110,7 @@ p {
 
 /* line 2, ../sass/elements/_sections.scss */
 .title {
-  background-image: url("../images/Background.jpg");
+  background-image: url("../images/Background.png");
   position: relative;
   background-size: cover;
 }
@@ -121,7 +121,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 /* line 14, ../sass/elements/_sections.scss */
 .title .text {
@@ -401,7 +401,7 @@ p {
 }
 /* line 121, ../sass/elements/_sections.scss */
 .just-relax #back {
-  background-image: url("../images/Background2.jpg");
+  background-image: url("../images/Background2.png");
   width: 69.3%;
   height: 100%;
   z-index: 9;
@@ -1420,6 +1420,7 @@ p {
   position: absolute;
   font-size: 25px;
   left: 0;
+  font-family: FontAwesome;
   transform: translate(50%, -20%);
 }
 @media screen and (max-width: 1200px) {
@@ -1440,9 +1441,8 @@ p {
     transform: translate(50%, -25%) scale(0.6);
   }
 }
-/* line 60, ../sass/elements/_footer.scss */
+/* line 61, ../sass/elements/_footer.scss */
 .topfooter .columns .list .location::before {
-  font-family: FontAwesome;
   content: "\f041";
   font-size: 35px;
 }
@@ -1452,7 +1452,6 @@ p {
 }
 /* line 66, ../sass/elements/_footer.scss */
 .topfooter .columns .list .website::before {
-  font-family: FontAwesome;
   content: "\f0e0";
 }
 /* line 67, ../sass/elements/_footer.scss */
@@ -1461,17 +1460,14 @@ p {
 }
 /* line 68, ../sass/elements/_footer.scss */
 .topfooter .columns .list .pic::before {
-  font-family: FontAwesome;
   content: "\f03e";
 }
 /* line 69, ../sass/elements/_footer.scss */
 .topfooter .columns .list .play::before {
-  font-family: FontAwesome;
   content: "\f04b";
 }
 /* line 70, ../sass/elements/_footer.scss */
 .topfooter .columns .list .tweets::before {
-  font-family: FontAwesome;
   content: "\f099";
 }
 
