@@ -17,9 +17,9 @@ gulp.task('css',function(){
 
 
 gulp.task("htmlmin", function(){
-  gulp.src("./index.html")
+  gulp.src("./minified/index.html")
   .pipe(htmlmin({collapseWhitespace:true}))
-  .pipe(gulp.dest("minified"));
+  .pipe(gulp.dest("./"));
 
 
 
