@@ -6,6 +6,8 @@ var htmlmin = require('gulp-htmlmin');
 gulp.task('css',function(){
 
   gulp.src([
+    './stylesheets/aos.css',
+    './stylesheets/bootstrap.css',
     './stylesheets/combined_css.css',
     './stylesheets/app.css'
   ])
