@@ -375,7 +375,8 @@
           border-top: 2px solid;
           width: 50%;
           top: 2.5em;
-          transform: translateX(50%);
+          right: 0;
+          transform: translate(50%,0);
           @media screen and (max-width: $medium+1){visibility: hidden;}
       }
       .icon3::before{
