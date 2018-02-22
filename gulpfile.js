@@ -19,9 +19,9 @@ gulp.task('css',function(){
 
 gulp.task('scripts', function(){
   gulp.src([
+    './scripts/aos.js',
     './scripts/jquery.js',
-    './scripts/bootstrap.js',
-    './scripts/aos.js'
+    './scripts/bootstrap.js'
   ])
   .pipe(concat('libs.js'))
   .pipe(uglify())
