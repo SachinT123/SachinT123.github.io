@@ -17,16 +17,22 @@ gulp.task('css',function(){
 
 });
 
+gulp.task('scripts', function(){
+  gulp.src([
+    './scripts/aos.js',
+    './scripts/bootstrap.js',
+    './scripts/jquery.js'
+  ])
+  .pipe(concat('libs.js'))
+  .pipe(uglify())
+  .pipe(gulp.dest('./scripts'));
+});
 
 gulp.task("htmlmin", function(){
   gulp.src("./minified/index.html")
   .pipe(htmlmin({collapseWhitespace:true}))
   .pipe(gulp.dest("./"));
-
-
-
 });
-gulp.task('default', [
-  'css',
-  'htmlmin'
-]);
+
+
+gulp.task('default', ['css','htmlmin','scripts']);
