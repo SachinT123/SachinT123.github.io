@@ -55,10 +55,8 @@
       @media screen and (max-width: $x-small){font-size: 8px!important;width: 14em;height: 4em;}
     }
   }
+  &:hover,&:focus{.back_1{background: rgba(0, 0, 0, 0.5);-webkit-transform: scaleY(1);transform: scaleY(1);}}
 }
-
-.title:hover,.title:focus{.back_1{background: rgba(0, 0, 0, 0.5);-webkit-transform: scaleY(1);transform: scaleY(1);}}
-
 
 //////////////////////////////////////services section
 .services{
@@ -200,6 +198,7 @@
               @media screen and (max-width: $medium+1){transform: scale(0.8);}
               @media screen and (max-width: $x-small){transform: scale(0.7);}
             }
+            &:hover,&:focus{ transform: scaleX(1.05); cursor: default; &::before{left: -3em;}}
           }
         }
         .button2{
@@ -294,6 +293,7 @@
               @media screen and (max-width: $x-small){transform: scale(0.7);}
               @media screen and (max-width: $x-small3){transform: translate(0,-10%) scale(0.7)}
             }
+            &:hover,&:focus{ transform: translateY(5%) ; cursor: default; &::before{left: -2.5em;} }
           }
           .feature1::before{content: url('../images/Icon-Basket.png');}
           .feature2::before{content: url('../images/Icon-Laptop.png');}
