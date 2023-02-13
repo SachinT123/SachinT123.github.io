@@ -280,7 +280,7 @@ body[data-aos-delay='950'] [data-aos] {
 
 [data-aos][data-aos][data-aos-delay='950'].aos-animate,
 body[data-aos-delay='950'] [data-aos].aos-animate {
-    transition-delay: .95s
+    transition-delay: 1s;
 }
 
 [data-aos][data-aos][data-aos-duration='1000'],

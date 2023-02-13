@@ -20,7 +20,7 @@ body[data-aos-duration='100'] [data-aos] {
 
 [data-aos][data-aos][data-aos-delay='100'],
 body[data-aos-delay='100'] [data-aos] {
-    transition-delay: 0
+    transition-delay: 100ms;
 }
 
 [data-aos][data-aos][data-aos-delay='100'].aos-animate,
@@ -75,12 +75,12 @@ body[data-aos-delay='250'] [data-aos].aos-animate {
 
 [data-aos][data-aos][data-aos-duration='300'],
 body[data-aos-duration='300'] [data-aos] {
-    transition-duration: .3s
+    transition-duration: .3s;
 }
 
 [data-aos][data-aos][data-aos-delay='300'],
 body[data-aos-delay='300'] [data-aos] {
-    transition-delay: 0
+    transition-delay: 100ms;
 }
 
 [data-aos][data-aos][data-aos-delay='300'].aos-animate,
